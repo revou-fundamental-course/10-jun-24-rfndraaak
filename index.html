@@ -3,13 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Konversi Suhu</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+
+    </style>
 </head>
 <body>
     <header>
-        <h1> Website Konversi Suhu</h1>
+        <h1>Website Konversi Suhu</h1>
     </header>
+
+    <!-- Main Content -->
+    <main>
+        <p>
+            Masukkan suhu derajat celsius (&degC)
+        </p>
+
+        <!-- celsius -->
+        <section>
+            <header>
+                <h3>Celcius (&deg;C)</h3>
+            </header>
+
+            <section>
+                <textarea name="celsius" id="celsius" type="number"></textarea>
+            </section>
+        </section>
+
+        <button>Konversi</button>
+        <button>Reset</button>
+        <button>Reverse</button>
+
+        <!-- farenhait -->
+        <section>
+            <header>
+                <h3>Farenhait (&deg;F)</h3>
+            </header>
+            
+            <section>
+                <textarea name="farenhait" id="farenhait" type="number"></textarea>
+            </section>
+        </section>
+
+        <!-- calculate -->
+        <section>
+            <header>
+                <h3>Cara Kalkulasi</h3>
+            </header>
+
+            <section>
+                <textarea name="Kalkulasi" id="Kalkulasi"></textarea>
+            </section>
+        </section>
+
+        <!-- info formula  -->
+        <section>
+            <header>
+                <h2>Cara Konversi Dari Celcius(&deg;C) ke Farenhait(&deg;F)</h2>
+            </header>
+            
+            <hr>
+            
+            <p>
+                Suhu <span class="s">S</span> dalam derajat Farenhait (&deg;F) sama 
+                <span class="s">S</span> dengan suhu dalam derajat Celcius (&deg;C) ...
+            </p>
+
+            <p>
+                <span class="s">S</span><sub>(&deg;F)</sub> = (<span class="s">S</span><sub>(&deg;C)</sub> &times; 9/5)
+            </p>
+            atau
+            <p>
+                <span class="s">S</span><sub>(&deg;F)</sub> = (<span class="s">S</span><sub>(&deg;C)</sub> &times; 1.8)
+            </p>
+        </section>
+    </main>
     <script src="js/script.js"></script>
 </body>
 </html>
